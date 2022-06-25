@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import Clock from "react-live-clock";
 
 function App() {
   let time = new Date().toLocaleString();
@@ -26,7 +25,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Clock format={"HH:mm:ss"} ticking={true} timezone={"US/Pacific"} /> */}
       <time>{time}</time>
       <h1>
         <span id="greeting"></span>
